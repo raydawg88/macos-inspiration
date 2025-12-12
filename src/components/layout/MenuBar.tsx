@@ -60,7 +60,7 @@ export function MenuBar() {
 
       {/* Right side info */}
       <div className="px-3 h-full flex items-center text-[10px] text-gray-600">
-        Curated macOS App UI
+        Curated by Stoodio.com
       </div>
     </div>
   );

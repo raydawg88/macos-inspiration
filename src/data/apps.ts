@@ -19,7 +19,7 @@ export const apps: AppWithImages[] = [
       {
         id: '1-1',
         app_id: '1',
-        storage_path: 'https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffile-search.cc18c68b.png&w=1920&q=75',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Raycast',
         alt_text: 'Raycast file search',
         is_primary: true,
         sort_order: 0,
@@ -28,7 +28,7 @@ export const apps: AppWithImages[] = [
       {
         id: '1-2',
         app_id: '1',
-        storage_path: 'https://www.raycast.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcalculator.d0b6fc01.png&w=1920&q=75',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Raycast',
         alt_text: 'Raycast calculator',
         is_primary: false,
         sort_order: 1,
@@ -52,7 +52,7 @@ export const apps: AppWithImages[] = [
       {
         id: '2-1',
         app_id: '2',
-        storage_path: 'https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/d4c9c051-1515-488f-00aa-1553b9322900/f=auto,dpr=2,q=95,fit=scale-down,metadata=none',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Linear',
         alt_text: 'Linear issue board',
         is_primary: true,
         sort_order: 0,
@@ -61,7 +61,7 @@ export const apps: AppWithImages[] = [
       {
         id: '2-2',
         app_id: '2',
-        storage_path: 'https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/25491170-d59e-427e-ee76-a69dcf080300/f=auto,dpr=2,q=95,fit=scale-down,metadata=none',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Linear',
         alt_text: 'Linear roadmap view',
         is_primary: false,
         sort_order: 1,
@@ -85,7 +85,7 @@ export const apps: AppWithImages[] = [
       {
         id: '3-1',
         app_id: '3',
-        storage_path: 'https://cdn.sanity.io/images/599r6htc/localized/5ac01351be5bb67d2dce3ab6bb976e5cc53b0235-2400x1260.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Figma',
         alt_text: 'Figma design interface',
         is_primary: true,
         sort_order: 0,
@@ -109,7 +109,7 @@ export const apps: AppWithImages[] = [
       {
         id: '4-1',
         app_id: '4',
-        storage_path: 'https://cdn.sanity.io/images/e5fj2khm/arc-net/31cee3aefc61c5fdc3ba1563c3697df97fe17bf0-2400x1600.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Arc',
         alt_text: 'Arc browser interface',
         is_primary: true,
         sort_order: 0,
@@ -133,7 +133,7 @@ export const apps: AppWithImages[] = [
       {
         id: '5-1',
         app_id: '5',
-        storage_path: 'https://www.notion.com/_next/image?url=%2Ffront-static%2Fdownloads%2Fnotion%2Fen-US.png&w=3840&q=75',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Notion',
         alt_text: 'Notion workspace',
         is_primary: true,
         sort_order: 0,
@@ -157,7 +157,7 @@ export const apps: AppWithImages[] = [
       {
         id: '6-1',
         app_id: '6',
-        storage_path: 'https://cleanshot.com/_nuxt/recording.7d27e588.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=CleanShot%20X',
         alt_text: 'CleanShot X recording',
         is_primary: true,
         sort_order: 0,
@@ -181,7 +181,7 @@ export const apps: AppWithImages[] = [
       {
         id: '7-1',
         app_id: '7',
-        storage_path: 'https://culturedcode.com/things/2024-01-20/images/meettheallnewthings2-io75.jpg',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Things%203',
         alt_text: 'Things 3 task manager',
         is_primary: true,
         sort_order: 0,
@@ -205,7 +205,7 @@ export const apps: AppWithImages[] = [
       {
         id: '8-1',
         app_id: '8',
-        storage_path: 'https://www.craft.do/_next/static/media/papers-combined-lg.c4bb9e28.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Craft',
         alt_text: 'Craft document editor',
         is_primary: true,
         sort_order: 0,
@@ -229,7 +229,7 @@ export const apps: AppWithImages[] = [
       {
         id: '9-1',
         app_id: '9',
-        storage_path: 'https://flexibits.com/img/fantastical/fantastical-hero.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Fantastical',
         alt_text: 'Fantastical calendar',
         is_primary: true,
         sort_order: 0,
@@ -253,7 +253,7 @@ export const apps: AppWithImages[] = [
       {
         id: '10-1',
         app_id: '10',
-        storage_path: 'https://todoist.com/static/home-teams/intro/background-702ff217e1.webp',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Todoist',
         alt_text: 'Todoist interface',
         is_primary: true,
         sort_order: 0,
@@ -278,7 +278,7 @@ export const apps: AppWithImages[] = [
       {
         id: '11-1',
         app_id: '11',
-        storage_path: 'https://code.visualstudio.com/assets/home/home-screenshot-mac-2x-v2.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Visual%20Studio%20Code',
         alt_text: 'VS Code editor',
         is_primary: true,
         sort_order: 0,
@@ -302,7 +302,7 @@ export const apps: AppWithImages[] = [
       {
         id: '12-1',
         app_id: '12',
-        storage_path: 'https://assets-global.website-files.com/64b6f3636f598299028c3b91/65c8c58b41a8c6d4e38f0f57_Drive_og.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Warp',
         alt_text: 'Warp terminal',
         is_primary: true,
         sort_order: 0,
@@ -326,7 +326,7 @@ export const apps: AppWithImages[] = [
       {
         id: '13-1',
         app_id: '13',
-        storage_path: 'https://www.git-tower.com/images/product/tower-mac-screenshot@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Tower',
         alt_text: 'Tower Git client',
         is_primary: true,
         sort_order: 0,
@@ -350,7 +350,7 @@ export const apps: AppWithImages[] = [
       {
         id: '14-1',
         app_id: '14',
-        storage_path: 'https://git-fork.com/images/blog/fork-2.0/main-window.jpg',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Fork',
         alt_text: 'Fork Git client',
         is_primary: true,
         sort_order: 0,
@@ -374,7 +374,7 @@ export const apps: AppWithImages[] = [
       {
         id: '15-1',
         app_id: '15',
-        storage_path: 'https://iterm2.com/img/screenshots/split_panes_full.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=iTerm2',
         alt_text: 'iTerm2 terminal',
         is_primary: true,
         sort_order: 0,
@@ -398,7 +398,7 @@ export const apps: AppWithImages[] = [
       {
         id: '16-1',
         app_id: '16',
-        storage_path: 'https://tableplus.com/resources/images/app-screenshot-large-3x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=TablePlus',
         alt_text: 'TablePlus database',
         is_primary: true,
         sort_order: 0,
@@ -422,7 +422,7 @@ export const apps: AppWithImages[] = [
       {
         id: '17-1',
         app_id: '17',
-        storage_path: 'https://proxyman.io/assets/imgs/home/home_screenshot@2x.webp',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Proxyman',
         alt_text: 'Proxyman interface',
         is_primary: true,
         sort_order: 0,
@@ -446,7 +446,7 @@ export const apps: AppWithImages[] = [
       {
         id: '18-1',
         app_id: '18',
-        storage_path: 'https://kapeli.com/img/dash-screenshot@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Dash',
         alt_text: 'Dash documentation',
         is_primary: true,
         sort_order: 0,
@@ -470,7 +470,7 @@ export const apps: AppWithImages[] = [
       {
         id: '19-1',
         app_id: '19',
-        storage_path: 'https://paw.cloud/img/screenshots/screenshot-mac-dark.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Paw',
         alt_text: 'Paw API client',
         is_primary: true,
         sort_order: 0,
@@ -494,7 +494,7 @@ export const apps: AppWithImages[] = [
       {
         id: '20-1',
         app_id: '20',
-        storage_path: 'https://kaleidoscope.app/images/hero-light@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Kaleidoscope',
         alt_text: 'Kaleidoscope diff tool',
         is_primary: true,
         sort_order: 0,
@@ -519,7 +519,7 @@ export const apps: AppWithImages[] = [
       {
         id: '21-1',
         app_id: '21',
-        storage_path: 'https://www.sketch.com/images/pages/home-new/hero-workspace@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Sketch',
         alt_text: 'Sketch design tool',
         is_primary: true,
         sort_order: 0,
@@ -543,7 +543,7 @@ export const apps: AppWithImages[] = [
       {
         id: '22-1',
         app_id: '22',
-        storage_path: 'https://www.pixelmator.com/pro/images/new-hero-editing@2x.webp',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Pixelmator%20Pro',
         alt_text: 'Pixelmator Pro editing',
         is_primary: true,
         sort_order: 0,
@@ -567,7 +567,7 @@ export const apps: AppWithImages[] = [
       {
         id: '23-1',
         app_id: '23',
-        storage_path: 'https://affinity.serif.com/images/product/designer/overview/screenshots/overview-isoui-mac@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Affinity%20Designer%202',
         alt_text: 'Affinity Designer',
         is_primary: true,
         sort_order: 0,
@@ -591,7 +591,7 @@ export const apps: AppWithImages[] = [
       {
         id: '24-1',
         app_id: '24',
-        storage_path: 'https://affinity.serif.com/images/product/photo/overview/screenshots/overview-isoui-mac@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Affinity%20Photo%202',
         alt_text: 'Affinity Photo',
         is_primary: true,
         sort_order: 0,
@@ -615,7 +615,7 @@ export const apps: AppWithImages[] = [
       {
         id: '25-1',
         app_id: '25',
-        storage_path: 'https://procreate.com/images/dreams/hero/dreams-hero-lp.webp',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Procreate%20Dreams',
         alt_text: 'Procreate Dreams',
         is_primary: true,
         sort_order: 0,
@@ -639,7 +639,7 @@ export const apps: AppWithImages[] = [
       {
         id: '26-1',
         app_id: '26',
-        storage_path: 'https://colorslurp.com/images/hero-screenshot@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=ColorSlurp',
         alt_text: 'ColorSlurp color picker',
         is_primary: true,
         sort_order: 0,
@@ -663,7 +663,7 @@ export const apps: AppWithImages[] = [
       {
         id: '27-1',
         app_id: '27',
-        storage_path: 'https://sipapp.io/images/hero-mac@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Sip',
         alt_text: 'Sip color tool',
         is_primary: true,
         sort_order: 0,
@@ -687,7 +687,7 @@ export const apps: AppWithImages[] = [
       {
         id: '28-1',
         app_id: '28',
-        storage_path: 'https://iconset.io/images/og-image.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Iconset',
         alt_text: 'Iconset manager',
         is_primary: true,
         sort_order: 0,
@@ -711,7 +711,7 @@ export const apps: AppWithImages[] = [
       {
         id: '29-1',
         app_id: '29',
-        storage_path: 'https://framerusercontent.com/images/HvOhEUk2ICZYbnVuWYd2i5hA0.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Framer',
         alt_text: 'Framer website builder',
         is_primary: true,
         sort_order: 0,
@@ -735,7 +735,7 @@ export const apps: AppWithImages[] = [
       {
         id: '30-1',
         app_id: '30',
-        storage_path: 'https://www.pixelmator.com/photomator/images/hero@2x.webp',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Photomator',
         alt_text: 'Photomator editing',
         is_primary: true,
         sort_order: 0,
@@ -760,7 +760,7 @@ export const apps: AppWithImages[] = [
       {
         id: '31-1',
         app_id: '31',
-        storage_path: 'https://www.alfredapp.com/media/pages/home-v5/alfred-results.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Alfred',
         alt_text: 'Alfred launcher',
         is_primary: true,
         sort_order: 0,
@@ -784,7 +784,7 @@ export const apps: AppWithImages[] = [
       {
         id: '32-1',
         app_id: '32',
-        storage_path: 'https://www.macbartender.com/Bartender5/img/Bartender5-Hero@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Bartender',
         alt_text: 'Bartender menu bar',
         is_primary: true,
         sort_order: 0,
@@ -808,7 +808,7 @@ export const apps: AppWithImages[] = [
       {
         id: '33-1',
         app_id: '33',
-        storage_path: 'https://rectangleapp.com/pro/images/rectangle-pro-hero.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Rectangle',
         alt_text: 'Rectangle window management',
         is_primary: true,
         sort_order: 0,
@@ -832,7 +832,7 @@ export const apps: AppWithImages[] = [
       {
         id: '34-1',
         app_id: '34',
-        storage_path: 'https://daisydiskapp.com/img/DaisyDisk.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=DaisyDisk',
         alt_text: 'DaisyDisk visualization',
         is_primary: true,
         sort_order: 0,
@@ -856,7 +856,7 @@ export const apps: AppWithImages[] = [
       {
         id: '35-1',
         app_id: '35',
-        storage_path: 'https://bjango.com/images/mac/istatmenus6/hero-istatmenus6-mac@2x.jpg',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=iStat%20Menus',
         alt_text: 'iStat Menus',
         is_primary: true,
         sort_order: 0,
@@ -880,7 +880,7 @@ export const apps: AppWithImages[] = [
       {
         id: '36-1',
         app_id: '36',
-        storage_path: 'https://www.noodlesoft.com/assets/hazel-hero@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Hazel',
         alt_text: 'Hazel automation',
         is_primary: true,
         sort_order: 0,
@@ -904,7 +904,7 @@ export const apps: AppWithImages[] = [
       {
         id: '37-1',
         app_id: '37',
-        storage_path: 'https://maccy.app/img/maccy/maccy-preview.webp',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Maccy',
         alt_text: 'Maccy clipboard',
         is_primary: true,
         sort_order: 0,
@@ -928,7 +928,7 @@ export const apps: AppWithImages[] = [
       {
         id: '38-1',
         app_id: '38',
-        storage_path: 'https://textexpander.com/img/home/hero-image.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=TextExpander',
         alt_text: 'TextExpander',
         is_primary: true,
         sort_order: 0,
@@ -952,7 +952,7 @@ export const apps: AppWithImages[] = [
       {
         id: '39-1',
         app_id: '39',
-        storage_path: 'https://tapbots.com/pastebot/images/hero@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Pastebot',
         alt_text: 'Pastebot clipboard',
         is_primary: true,
         sort_order: 0,
@@ -976,7 +976,7 @@ export const apps: AppWithImages[] = [
       {
         id: '40-1',
         app_id: '40',
-        storage_path: 'https://1password.com/img/home/watchtower-hero-2024@2x.webp',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=1Password',
         alt_text: '1Password manager',
         is_primary: true,
         sort_order: 0,
@@ -1001,7 +1001,7 @@ export const apps: AppWithImages[] = [
       {
         id: '41-1',
         app_id: '41',
-        storage_path: 'https://iina.io/images/sc-sky.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=IINA',
         alt_text: 'IINA media player',
         is_primary: true,
         sort_order: 0,
@@ -1025,7 +1025,7 @@ export const apps: AppWithImages[] = [
       {
         id: '42-1',
         app_id: '42',
-        storage_path: 'https://firecore.com/images/infuse-7/mac/mac-hero@2x.webp',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Infuse',
         alt_text: 'Infuse player',
         is_primary: true,
         sort_order: 0,
@@ -1049,7 +1049,7 @@ export const apps: AppWithImages[] = [
       {
         id: '43-1',
         app_id: '43',
-        storage_path: 'https://developer.spotify.com/images/guidelines/design/desktop-app-light.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Spotify',
         alt_text: 'Spotify desktop',
         is_primary: true,
         sort_order: 0,
@@ -1073,7 +1073,7 @@ export const apps: AppWithImages[] = [
       {
         id: '44-1',
         app_id: '44',
-        storage_path: 'https://replay.software/sleeve/images/sleeve-hero.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Sleeve',
         alt_text: 'Sleeve music widget',
         is_primary: true,
         sort_order: 0,
@@ -1097,7 +1097,7 @@ export const apps: AppWithImages[] = [
       {
         id: '45-1',
         app_id: '45',
-        storage_path: 'https://www.apple.com/v/apple-podcasts/d/images/overview/hero__d1oda3j24gaa_medium.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Podcast%20App',
         alt_text: 'Apple Podcasts',
         is_primary: true,
         sort_order: 0,
@@ -1121,7 +1121,7 @@ export const apps: AppWithImages[] = [
       {
         id: '46-1',
         app_id: '46',
-        storage_path: 'https://www.pnguin.app/vinyls/images/vinyls-hero.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Vinyls',
         alt_text: 'Vinyls player',
         is_primary: true,
         sort_order: 0,
@@ -1145,7 +1145,7 @@ export const apps: AppWithImages[] = [
       {
         id: '47-1',
         app_id: '47',
-        storage_path: 'https://brushedtype.co/doppler/img/doppler-hero-macos@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Doppler',
         alt_text: 'Doppler music',
         is_primary: true,
         sort_order: 0,
@@ -1169,7 +1169,7 @@ export const apps: AppWithImages[] = [
       {
         id: '48-1',
         app_id: '48',
-        storage_path: 'https://software.charliemonroe.net/permute/images/Permute-Mac-Main@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Permute',
         alt_text: 'Permute converter',
         is_primary: true,
         sort_order: 0,
@@ -1193,7 +1193,7 @@ export const apps: AppWithImages[] = [
       {
         id: '49-1',
         app_id: '49',
-        storage_path: 'https://darkroom.co/images/darkroom-hero-mac.webp',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Darkroom',
         alt_text: 'Darkroom editor',
         is_primary: true,
         sort_order: 0,
@@ -1217,7 +1217,7 @@ export const apps: AppWithImages[] = [
       {
         id: '50-1',
         app_id: '50',
-        storage_path: 'https://www.apple.com/v/final-cut-pro/o/images/overview/hero__fk4cswlvqfea_large.jpg',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Final%20Cut%20Pro',
         alt_text: 'Final Cut Pro',
         is_primary: true,
         sort_order: 0,
@@ -1242,7 +1242,7 @@ export const apps: AppWithImages[] = [
       {
         id: '51-1',
         app_id: '51',
-        storage_path: 'https://a.slack-edge.com/3d35d/marketing/img/homepage/bold-existing-users/desktop@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Slack',
         alt_text: 'Slack workspace',
         is_primary: true,
         sort_order: 0,
@@ -1266,7 +1266,7 @@ export const apps: AppWithImages[] = [
       {
         id: '52-1',
         app_id: '52',
-        storage_path: 'https://discord.com/assets/847541504914fd33810e70a0ea73177e.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Discord',
         alt_text: 'Discord chat',
         is_primary: true,
         sort_order: 0,
@@ -1290,7 +1290,7 @@ export const apps: AppWithImages[] = [
       {
         id: '53-1',
         app_id: '53',
-        storage_path: 'https://mimestream.com/images/hero-screenshot@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Mimestream',
         alt_text: 'Mimestream email',
         is_primary: true,
         sort_order: 0,
@@ -1314,7 +1314,7 @@ export const apps: AppWithImages[] = [
       {
         id: '54-1',
         app_id: '54',
-        storage_path: 'https://sparkmailapp.com/images/hero/hero-macbook-light@2x.webp',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Spark',
         alt_text: 'Spark email',
         is_primary: true,
         sort_order: 0,
@@ -1338,7 +1338,7 @@ export const apps: AppWithImages[] = [
       {
         id: '55-1',
         app_id: '55',
-        storage_path: 'https://telegram.org/img/t_logo.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Telegram',
         alt_text: 'Telegram messenger',
         is_primary: true,
         sort_order: 0,
@@ -1362,7 +1362,7 @@ export const apps: AppWithImages[] = [
       {
         id: '56-1',
         app_id: '56',
-        storage_path: 'https://st1.zoom.us/static/6.3.16779/image/home/hero-desktop.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Zoom',
         alt_text: 'Zoom video',
         is_primary: true,
         sort_order: 0,
@@ -1386,7 +1386,7 @@ export const apps: AppWithImages[] = [
       {
         id: '57-1',
         app_id: '57',
-        storage_path: 'https://canarymail.io/images/mac-hero@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Canary%20Mail',
         alt_text: 'Canary Mail',
         is_primary: true,
         sort_order: 0,
@@ -1410,7 +1410,7 @@ export const apps: AppWithImages[] = [
       {
         id: '58-1',
         app_id: '58',
-        storage_path: 'https://www.loom.com/images/homepage/hero/hero-image.webp',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Loom',
         alt_text: 'Loom recording',
         is_primary: true,
         sort_order: 0,
@@ -1434,7 +1434,7 @@ export const apps: AppWithImages[] = [
       {
         id: '59-1',
         app_id: '59',
-        storage_path: 'https://around.co/images/hero/hero-video@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Around',
         alt_text: 'Around video calls',
         is_primary: true,
         sort_order: 0,
@@ -1458,7 +1458,7 @@ export const apps: AppWithImages[] = [
       {
         id: '60-1',
         app_id: '60',
-        storage_path: 'https://superhuman.com/images/product/hero-inbox@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Superhuman',
         alt_text: 'Superhuman email',
         is_primary: true,
         sort_order: 0,
@@ -1483,7 +1483,7 @@ export const apps: AppWithImages[] = [
       {
         id: '61-1',
         app_id: '61',
-        storage_path: 'https://www.ynab.com/images/features-hero@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=YNAB',
         alt_text: 'YNAB budgeting',
         is_primary: true,
         sort_order: 0,
@@ -1507,7 +1507,7 @@ export const apps: AppWithImages[] = [
       {
         id: '62-1',
         app_id: '62',
-        storage_path: 'https://copilot.money/images/hero-mac@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Copilot',
         alt_text: 'Copilot finance',
         is_primary: true,
         sort_order: 0,
@@ -1531,7 +1531,7 @@ export const apps: AppWithImages[] = [
       {
         id: '63-1',
         app_id: '63',
-        storage_path: 'https://www.apple.com/newsroom/images/product/apps/apple_stocks-app_020718_big.jpg.large.jpg',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Stocks',
         alt_text: 'Apple Stocks',
         is_primary: true,
         sort_order: 0,
@@ -1555,7 +1555,7 @@ export const apps: AppWithImages[] = [
       {
         id: '64-1',
         app_id: '64',
-        storage_path: 'https://chronicleapp.com/images/mac-hero@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Chronicle',
         alt_text: 'Chronicle bills',
         is_primary: true,
         sort_order: 0,
@@ -1579,7 +1579,7 @@ export const apps: AppWithImages[] = [
       {
         id: '65-1',
         app_id: '65',
-        storage_path: 'https://www.quicken.com/sites/default/files/2023-02/hero-simplified@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Quicken',
         alt_text: 'Quicken finance',
         is_primary: true,
         sort_order: 0,
@@ -1604,7 +1604,7 @@ export const apps: AppWithImages[] = [
       {
         id: '66-1',
         app_id: '66',
-        storage_path: 'https://apps.ankiweb.net/img/anki-logo.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Anki',
         alt_text: 'Anki flashcards',
         is_primary: true,
         sort_order: 0,
@@ -1628,7 +1628,7 @@ export const apps: AppWithImages[] = [
       {
         id: '67-1',
         app_id: '67',
-        storage_path: 'https://ulysses.app/assets/img/hero/mac-ipad@2x.webp',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Ulysses',
         alt_text: 'Ulysses writing',
         is_primary: true,
         sort_order: 0,
@@ -1652,7 +1652,7 @@ export const apps: AppWithImages[] = [
       {
         id: '68-1',
         app_id: '68',
-        storage_path: 'https://ia.net/wp-content/uploads/2021/10/ia-writer-hero-mac@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=iA%20Writer',
         alt_text: 'iA Writer',
         is_primary: true,
         sort_order: 0,
@@ -1676,7 +1676,7 @@ export const apps: AppWithImages[] = [
       {
         id: '69-1',
         app_id: '69',
-        storage_path: 'https://www.literatureandlatte.com/assets/image/home/main-scrivener-3@2x.jpg',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Scrivener',
         alt_text: 'Scrivener writing',
         is_primary: true,
         sort_order: 0,
@@ -1700,7 +1700,7 @@ export const apps: AppWithImages[] = [
       {
         id: '70-1',
         app_id: '70',
-        storage_path: 'https://www.devontechnologies.com/media/pages/apps/devonthink/3c4ddd4e26-1698242048/hero@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=DEVONthink',
         alt_text: 'DEVONthink',
         is_primary: true,
         sort_order: 0,
@@ -1725,7 +1725,7 @@ export const apps: AppWithImages[] = [
       {
         id: '71-1',
         app_id: '71',
-        storage_path: 'https://dayoneapp.com/images/hero/day-one-hero-mac@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Day%20One',
         alt_text: 'Day One journal',
         is_primary: true,
         sort_order: 0,
@@ -1749,7 +1749,7 @@ export const apps: AppWithImages[] = [
       {
         id: '72-1',
         app_id: '72',
-        storage_path: 'https://streaksapp.com/images/mac-hero@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Streaks',
         alt_text: 'Streaks habits',
         is_primary: true,
         sort_order: 0,
@@ -1773,7 +1773,7 @@ export const apps: AppWithImages[] = [
       {
         id: '73-1',
         app_id: '73',
-        storage_path: 'https://meetcarrot.com/weather/images/mac-hero@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Carrot%20Weather',
         alt_text: 'CARROT Weather',
         is_primary: true,
         sort_order: 0,
@@ -1797,7 +1797,7 @@ export const apps: AppWithImages[] = [
       {
         id: '74-1',
         app_id: '74',
-        storage_path: 'https://flightyapp.com/images/mac-hero@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Flighty',
         alt_text: 'Flighty flight tracker',
         is_primary: true,
         sort_order: 0,
@@ -1821,7 +1821,7 @@ export const apps: AppWithImages[] = [
       {
         id: '75-1',
         app_id: '75',
-        storage_path: 'https://www.paprikaapp.com/images/hero-mac@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Paprika',
         alt_text: 'Paprika recipes',
         is_primary: true,
         sort_order: 0,
@@ -1846,7 +1846,7 @@ export const apps: AppWithImages[] = [
       {
         id: '76-1',
         app_id: '76',
-        storage_path: 'https://www.altosodyssey.com/images/hero@2x.jpg',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Alto%5C',
         alt_text: 'Alto\'s Odyssey',
         is_primary: true,
         sort_order: 0,
@@ -1870,7 +1870,7 @@ export const apps: AppWithImages[] = [
       {
         id: '77-1',
         app_id: '77',
-        storage_path: 'https://cdn.cloudflare.steamstatic.com/steam/apps/2379780/header.jpg',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Balatro',
         alt_text: 'Balatro game',
         is_primary: true,
         sort_order: 0,
@@ -1894,7 +1894,7 @@ export const apps: AppWithImages[] = [
       {
         id: '78-1',
         app_id: '78',
-        storage_path: 'https://monumentvalleygame.com/images/mv1-hero@2x.jpg',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Monument%20Valley',
         alt_text: 'Monument Valley',
         is_primary: true,
         sort_order: 0,
@@ -1918,7 +1918,7 @@ export const apps: AppWithImages[] = [
       {
         id: '79-1',
         app_id: '79',
-        storage_path: 'https://dinopoloclub.com/mini-metro/press/images/header.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Mini%20Metro',
         alt_text: 'Mini Metro',
         is_primary: true,
         sort_order: 0,
@@ -1942,7 +1942,7 @@ export const apps: AppWithImages[] = [
       {
         id: '80-1',
         app_id: '80',
-        storage_path: 'https://stardewvalley.net/wp-content/uploads/2016/03/2016-03-01-16h43_09.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Stardew%20Valley',
         alt_text: 'Stardew Valley',
         is_primary: true,
         sort_order: 0,
@@ -1967,7 +1967,7 @@ export const apps: AppWithImages[] = [
       {
         id: '81-1',
         app_id: '81',
-        storage_path: 'https://obsidian.md/images/banner.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Obsidian',
         alt_text: 'Obsidian notes',
         is_primary: true,
         sort_order: 0,
@@ -1991,7 +1991,7 @@ export const apps: AppWithImages[] = [
       {
         id: '82-1',
         app_id: '82',
-        storage_path: 'https://bear.app/images/hero/hero-mac@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Bear',
         alt_text: 'Bear notes',
         is_primary: true,
         sort_order: 0,
@@ -2015,7 +2015,7 @@ export const apps: AppWithImages[] = [
       {
         id: '83-1',
         app_id: '83',
-        storage_path: 'https://agenda.com/assets/images/hero-mac@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Agenda',
         alt_text: 'Agenda notes',
         is_primary: true,
         sort_order: 0,
@@ -2039,7 +2039,7 @@ export const apps: AppWithImages[] = [
       {
         id: '84-1',
         app_id: '84',
-        storage_path: 'https://goodnotes.com/images/mac-hero@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=GoodNotes',
         alt_text: 'GoodNotes',
         is_primary: true,
         sort_order: 0,
@@ -2063,7 +2063,7 @@ export const apps: AppWithImages[] = [
       {
         id: '85-1',
         app_id: '85',
-        storage_path: 'https://noteplan.co/images/hero-mac@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=NotePlan',
         alt_text: 'NotePlan',
         is_primary: true,
         sort_order: 0,
@@ -2087,7 +2087,7 @@ export const apps: AppWithImages[] = [
       {
         id: '86-1',
         app_id: '86',
-        storage_path: 'https://ticktick.com/static/img/mac-hero@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=TickTick',
         alt_text: 'TickTick tasks',
         is_primary: true,
         sort_order: 0,
@@ -2111,7 +2111,7 @@ export const apps: AppWithImages[] = [
       {
         id: '87-1',
         app_id: '87',
-        storage_path: 'https://www.omnigroup.com/assets/img/icons/omnifocus-mac.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=OmniFocus',
         alt_text: 'OmniFocus',
         is_primary: true,
         sort_order: 0,
@@ -2135,7 +2135,7 @@ export const apps: AppWithImages[] = [
       {
         id: '88-1',
         app_id: '88',
-        storage_path: 'https://www.dueapp.com/images/mac-hero@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Due',
         alt_text: 'Due reminders',
         is_primary: true,
         sort_order: 0,
@@ -2159,7 +2159,7 @@ export const apps: AppWithImages[] = [
       {
         id: '89-1',
         app_id: '89',
-        storage_path: 'https://timingapp.com/images/hero/timeline@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Timing',
         alt_text: 'Timing time tracking',
         is_primary: true,
         sort_order: 0,
@@ -2183,7 +2183,7 @@ export const apps: AppWithImages[] = [
       {
         id: '90-1',
         app_id: '90',
-        storage_path: 'https://rize.io/images/hero@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Rize',
         alt_text: 'Rize time tracking',
         is_primary: true,
         sort_order: 0,
@@ -2208,7 +2208,7 @@ export const apps: AppWithImages[] = [
       {
         id: '91-1',
         app_id: '91',
-        storage_path: 'https://handmirror.app/images/hero@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Hand%20Mirror',
         alt_text: 'Hand Mirror',
         is_primary: true,
         sort_order: 0,
@@ -2232,7 +2232,7 @@ export const apps: AppWithImages[] = [
       {
         id: '92-1',
         app_id: '92',
-        storage_path: 'https://sindresorhus.com/apps/dato/screenshot1.jpg',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Dato',
         alt_text: 'Dato menu bar',
         is_primary: true,
         sort_order: 0,
@@ -2256,7 +2256,7 @@ export const apps: AppWithImages[] = [
       {
         id: '93-1',
         app_id: '93',
-        storage_path: 'https://www.keka.io/img/Keka-Logo.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Keka',
         alt_text: 'Keka archiver',
         is_primary: true,
         sort_order: 0,
@@ -2280,7 +2280,7 @@ export const apps: AppWithImages[] = [
       {
         id: '94-1',
         app_id: '94',
-        storage_path: 'https://freemacsoft.net/appcleaner/img/appcleaner.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=AppCleaner',
         alt_text: 'AppCleaner',
         is_primary: true,
         sort_order: 0,
@@ -2304,7 +2304,7 @@ export const apps: AppWithImages[] = [
       {
         id: '95-1',
         app_id: '95',
-        storage_path: 'https://theunarchiver.com/images/hero@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=The%20Unarchiver',
         alt_text: 'The Unarchiver',
         is_primary: true,
         sort_order: 0,
@@ -2328,7 +2328,7 @@ export const apps: AppWithImages[] = [
       {
         id: '96-1',
         app_id: '96',
-        storage_path: 'https://binarynights.com/images/forklift/forklift-hero@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=ForkLift',
         alt_text: 'ForkLift',
         is_primary: true,
         sort_order: 0,
@@ -2352,7 +2352,7 @@ export const apps: AppWithImages[] = [
       {
         id: '97-1',
         app_id: '97',
-        storage_path: 'https://pilotmoon.com/popclip/images/popclip-hero@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=PopClip',
         alt_text: 'PopClip',
         is_primary: true,
         sort_order: 0,
@@ -2376,7 +2376,7 @@ export const apps: AppWithImages[] = [
       {
         id: '98-1',
         app_id: '98',
-        storage_path: 'https://aptonic.com/images/dropzone-hero@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Dropzone',
         alt_text: 'Dropzone',
         is_primary: true,
         sort_order: 0,
@@ -2400,7 +2400,7 @@ export const apps: AppWithImages[] = [
       {
         id: '99-1',
         app_id: '99',
-        storage_path: 'https://www.tripmode.ch/images/tripmode-hero@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=TripMode',
         alt_text: 'TripMode',
         is_primary: true,
         sort_order: 0,
@@ -2424,7 +2424,7 @@ export const apps: AppWithImages[] = [
       {
         id: '100-1',
         app_id: '100',
-        storage_path: 'https://sindresorhus.com/apps/velja/screenshot1.jpg',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Velja',
         alt_text: 'Velja browser picker',
         is_primary: true,
         sort_order: 0,
@@ -2449,7 +2449,7 @@ export const apps: AppWithImages[] = [
       {
         id: '101-1',
         app_id: '101',
-        storage_path: 'https://screenstudio.lemonsqueezy.com/images/hero@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Screen%20Studio',
         alt_text: 'Screen Studio',
         is_primary: true,
         sort_order: 0,
@@ -2473,7 +2473,7 @@ export const apps: AppWithImages[] = [
       {
         id: '102-1',
         app_id: '102',
-        storage_path: 'https://xnapper.com/images/og-image.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Xnapper',
         alt_text: 'Xnapper screenshots',
         is_primary: true,
         sort_order: 0,
@@ -2497,7 +2497,7 @@ export const apps: AppWithImages[] = [
       {
         id: '103-1',
         app_id: '103',
-        storage_path: 'https://shottr.cc/images/shottr-hero@2x.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Shottr',
         alt_text: 'Shottr',
         is_primary: true,
         sort_order: 0,
@@ -2521,7 +2521,7 @@ export const apps: AppWithImages[] = [
       {
         id: '104-1',
         app_id: '104',
-        storage_path: 'https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/af/0a/45/af0a45d6-65c6-d09d-a5d3-8b6c5f4e7f7c/AppIcon-85-220-4-2x.png/460x0w.png',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=Amphetamine',
         alt_text: 'Amphetamine',
         is_primary: true,
         sort_order: 0,
@@ -2545,7 +2545,7 @@ export const apps: AppWithImages[] = [
       {
         id: '105-1',
         app_id: '105',
-        storage_path: 'https://sindresorhus.com/apps/steadytune/screenshot1.jpg',
+        storage_path: 'https://placehold.co/800x600/1a1a2e/FFFFFF?text=SteadyTune',
         alt_text: 'SteadyTune',
         is_primary: true,
         sort_order: 0,
