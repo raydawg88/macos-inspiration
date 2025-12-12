@@ -45,6 +45,42 @@ export function getFeaturedApps(limit = 3): AppWithImages[] {
   return getApps({ featured: true, limit });
 }
 
+// Get a single daily featured app that rotates based on the current date
+export function getDailyFeaturedApp(): AppWithImages | null {
+  const featuredApps = apps.filter((app) => app.featured);
+  if (featuredApps.length === 0) return null;
+
+  // Use the day of the year to rotate through featured apps
+  const now = new Date();
+  const startOfYear = new Date(now.getFullYear(), 0, 0);
+  const diff = now.getTime() - startOfYear.getTime();
+  const dayOfYear = Math.floor(diff / (1000 * 60 * 60 * 24));
+
+  const index = dayOfYear % featuredApps.length;
+  return featuredApps[index];
+}
+
+export function getTotalAppsCount(options: { category?: AppCategory; search?: string } = {}): number {
+  const { category, search } = options;
+
+  let filtered = [...apps];
+
+  if (category) {
+    filtered = filtered.filter((app) => app.category === category);
+  }
+
+  if (search) {
+    const searchLower = search.toLowerCase();
+    filtered = filtered.filter(
+      (app) =>
+        app.name.toLowerCase().includes(searchLower) ||
+        app.description.toLowerCase().includes(searchLower)
+    );
+  }
+
+  return filtered.length;
+}
+
 export function getAppBySlug(slug: string): AppWithImages | null {
   return apps.find((app) => app.slug === slug) || null;
 }

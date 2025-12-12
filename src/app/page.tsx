@@ -1,20 +1,26 @@
 import { Suspense } from 'react';
-import { getApps, getFeaturedApps } from '@/lib/queries/apps';
-import { MasonryGallery, CategoryFilter } from '@/components/gallery';
+import { getApps, getDailyFeaturedApp, getTotalAppsCount } from '@/lib/queries/apps';
+import { MasonryGallery, CategoryFilter, FeaturedHero, Pagination } from '@/components/gallery';
 import { ClassicWindow } from '@/components/ui';
 import type { AppCategory } from '@/types';
 
+const APPS_PER_PAGE = 24;
+
 interface HomePageProps {
-  searchParams: Promise<{ category?: string; search?: string }>;
+  searchParams: Promise<{ category?: string; search?: string; page?: string }>;
 }
 
 export default async function HomePage({ searchParams }: HomePageProps) {
   const params = await searchParams;
   const category = params.category as AppCategory | undefined;
   const search = params.search;
+  const page = parseInt(params.page || '1', 10);
+  const offset = (page - 1) * APPS_PER_PAGE;
 
-  const apps = getApps({ category, search, limit: 50 });
-  const featuredApps = !category && !search ? getFeaturedApps(3) : [];
+  const apps = getApps({ category, search, limit: APPS_PER_PAGE, offset });
+  const totalApps = getTotalAppsCount({ category, search });
+  const totalPages = Math.ceil(totalApps / APPS_PER_PAGE);
+  const dailyFeatured = !category && !search && page === 1 ? getDailyFeaturedApp() : null;
 
   return (
     <div className="max-w-7xl mx-auto">
@@ -31,38 +37,14 @@ export default async function HomePage({ searchParams }: HomePageProps) {
             className="text-sm text-[#666666]"
             style={{ fontFamily: "'Geneva', 'Verdana', sans-serif" }}
           >
-            A curated gallery of the most beautifully designed macOS desktop
+            A curated gallery of {totalApps}+ beautifully designed macOS desktop
             applications. Find inspiration for your next project.
           </p>
         </div>
       </ClassicWindow>
 
-      {/* Featured Apps */}
-      {featuredApps.length > 0 && (
-        <ClassicWindow title="Featured Apps" className="mb-6">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {featuredApps.map((app) => (
-              <div
-                key={app.id}
-                className="bg-[#EEEEEE] border border-[#AAAAAA] p-2"
-              >
-                <h3
-                  className="text-sm font-bold mb-1"
-                  style={{ fontFamily: "'ChicagoFLF', 'Geneva', 'Verdana', sans-serif" }}
-                >
-                  {app.name}
-                </h3>
-                <p
-                  className="text-xs text-[#666666] line-clamp-2"
-                  style={{ fontFamily: "'Geneva', 'Verdana', sans-serif" }}
-                >
-                  {app.short_description || app.description}
-                </p>
-              </div>
-            ))}
-          </div>
-        </ClassicWindow>
-      )}
+      {/* Featured App of the Day */}
+      {dailyFeatured && <FeaturedHero app={dailyFeatured} />}
 
       {/* Category Filter */}
       <Suspense fallback={<div className="h-12 bg-[#DDDDDD] border border-black mb-4 animate-pulse" />}>
@@ -71,10 +53,32 @@ export default async function HomePage({ searchParams }: HomePageProps) {
 
       {/* Gallery */}
       <ClassicWindow
-        title={category ? `${category.replace('-', ' ')} Apps` : 'All Apps'}
+        title={
+          category
+            ? `${category.replace('-', ' ')} Apps (${totalApps})`
+            : search
+              ? `Search: "${search}" (${totalApps} results)`
+              : `All Apps (${totalApps})`
+        }
         showCloseBox={false}
       >
-        <MasonryGallery apps={apps} />
+        {apps.length > 0 ? (
+          <>
+            <MasonryGallery apps={apps} />
+            <Suspense fallback={null}>
+              <Pagination currentPage={page} totalPages={totalPages} />
+            </Suspense>
+          </>
+        ) : (
+          <div className="text-center py-8">
+            <p
+              className="text-[#666666]"
+              style={{ fontFamily: "'Geneva', 'Verdana', sans-serif" }}
+            >
+              No apps found. Try a different search or category.
+            </p>
+          </div>
+        )}
       </ClassicWindow>
     </div>
   );
