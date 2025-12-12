@@ -12,6 +12,7 @@ interface ImageGalleryProps {
 export function ImageGallery({ images, appName }: ImageGalleryProps) {
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
+  const [imageErrors, setImageErrors] = useState<Set<string>>(new Set());
 
   const sortedImages = [...images].sort((a, b) => {
     if (a.is_primary && !b.is_primary) return -1;
@@ -20,6 +21,19 @@ export function ImageGallery({ images, appName }: ImageGalleryProps) {
   });
 
   const selectedImage = sortedImages[selectedIndex];
+
+  // Generate placeholder URL for an image
+  const getPlaceholderUrl = (index: number) =>
+    `https://placehold.co/800x600/EEEEEE/666666?text=${encodeURIComponent(appName)}+${index + 1}`;
+
+  // Get image src with fallback
+  const getImageSrc = (image: AppImage, index: number) =>
+    imageErrors.has(image.id) ? getPlaceholderUrl(index) : image.storage_path;
+
+  // Handle image error
+  const handleImageError = (imageId: string) => {
+    setImageErrors((prev) => new Set(prev).add(imageId));
+  };
 
   if (sortedImages.length === 0) {
     return (
@@ -48,11 +62,13 @@ export function ImageGallery({ images, appName }: ImageGalleryProps) {
           }}
         >
           <Image
-            src={selectedImage.storage_path}
+            src={getImageSrc(selectedImage, selectedIndex)}
             alt={selectedImage.alt_text || `${appName} screenshot`}
             fill
             className="object-contain"
             priority
+            unoptimized
+            onError={() => handleImageError(selectedImage.id)}
           />
         </div>
       </div>
@@ -77,10 +93,12 @@ export function ImageGallery({ images, appName }: ImageGalleryProps) {
               }}
             >
               <Image
-                src={image.storage_path}
+                src={getImageSrc(image, index)}
                 alt={image.alt_text || `${appName} thumbnail ${index + 1}`}
                 fill
                 className="object-cover"
+                unoptimized
+                onError={() => handleImageError(image.id)}
               />
             </button>
           ))}
@@ -108,10 +126,12 @@ export function ImageGallery({ images, appName }: ImageGalleryProps) {
 
             <div className="relative aspect-video bg-black">
               <Image
-                src={selectedImage.storage_path}
+                src={getImageSrc(selectedImage, selectedIndex)}
                 alt={selectedImage.alt_text || `${appName} screenshot`}
                 fill
                 className="object-contain"
+                unoptimized
+                onError={() => handleImageError(selectedImage.id)}
               />
             </div>
 

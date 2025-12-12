@@ -1,5 +1,6 @@
 'use client';
 
+import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import type { AppWithImages } from '@/types';
@@ -10,8 +11,12 @@ interface AppCardProps {
 }
 
 export function AppCard({ app }: AppCardProps) {
+  const [imageError, setImageError] = useState(false);
   const primaryImage = app.images?.find((img) => img.is_primary) || app.images?.[0];
   const categoryLabel = CATEGORIES[app.category]?.label || app.category;
+
+  // Use placehold.co for reliable placeholder with app name
+  const placeholderUrl = `https://placehold.co/800x600/EEEEEE/666666?text=${encodeURIComponent(app.name)}`;
 
   return (
     <Link href={`/app/${app.slug}`} className="block group">
@@ -75,26 +80,15 @@ export function AppCard({ app }: AppCardProps) {
         {/* Screenshot */}
         <div className="bg-white p-2">
           <div className="relative aspect-[4/3] bg-[#EEEEEE] border border-black overflow-hidden">
-            {primaryImage ? (
-              <Image
-                src={primaryImage.storage_path}
-                alt={primaryImage.alt_text || `${app.name} screenshot`}
-                fill
-                className="object-cover"
-                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-              />
-            ) : (
-              <div className="absolute inset-0 flex items-center justify-center text-[#888888]">
-                <svg
-                  width="48"
-                  height="48"
-                  viewBox="0 0 48 48"
-                  fill="currentColor"
-                >
-                  <path d="M12 8h24v4H12zM8 12h4v24H8zM36 12h4v24h-4zM12 36h24v4H12zM16 16h16v16H16z" />
-                </svg>
-              </div>
-            )}
+            <Image
+              src={imageError ? placeholderUrl : (primaryImage?.storage_path || placeholderUrl)}
+              alt={primaryImage?.alt_text || `${app.name} screenshot`}
+              fill
+              className="object-cover"
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+              unoptimized
+              onError={() => setImageError(true)}
+            />
           </div>
         </div>
 
