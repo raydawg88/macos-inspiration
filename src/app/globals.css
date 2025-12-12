@@ -1,26 +1,66 @@
+@import url('https://fonts.cdnfonts.com/css/chicagoflf');
 @import "tailwindcss";
+@import "../styles/classic-mac.css";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
+/* ============================================
+   TAILWIND THEME OVERRIDES
+   ============================================ */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  /* Colors */
+  --color-platinum-lightest: #EEEEEE;
+  --color-platinum-light: #DDDDDD;
+  --color-platinum-mid: #CCCCCC;
+  --color-platinum-dark: #AAAAAA;
+  --color-platinum-darker: #888888;
+  --color-mac-black: #000000;
+  --color-mac-white: #FFFFFF;
+  --color-selection-blue: #0066CC;
+  --color-highlight-blue: #3399FF;
+
+  /* Fonts */
+  --font-chicago: 'ChicagoFLF', 'Geneva', 'Verdana', sans-serif;
+  --font-geneva: 'Geneva', 'Verdana', 'Helvetica', sans-serif;
+  --font-monaco: 'Monaco', 'Menlo', monospace;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ============================================
+   BASE RESETS
+   ============================================ */
+html {
+  scroll-behavior: auto;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Geneva', 'Verdana', 'Helvetica', sans-serif;
+  font-size: 12px;
+  line-height: 1.4;
+  color: #000000;
+  background-color: #CCCCCC;
+  /* Disable antialiasing for authentic pixelated look */
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: unset;
+  text-rendering: optimizeSpeed;
+}
+
+/* Classic Mac selection */
+::selection {
+  background: #0066CC;
+  color: #FFFFFF;
+}
+
+/* ============================================
+   RESPONSIVE ADJUSTMENTS
+   ============================================ */
+@media (min-width: 640px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+/* Re-enable antialiasing for modern readability on high-DPI */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
 }
