@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import type { AppWithImages } from '@/types';
 import { CATEGORIES } from '@/types';
 
@@ -80,13 +79,12 @@ export function AppCard({ app }: AppCardProps) {
         {/* Screenshot */}
         <div className="bg-white p-2">
           <div className="relative aspect-[4/3] bg-[#EEEEEE] border border-black overflow-hidden">
-            <Image
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
               src={imageError ? placeholderUrl : (primaryImage?.storage_path || placeholderUrl)}
               alt={primaryImage?.alt_text || `${app.name} screenshot`}
-              fill
-              className="object-cover"
-              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-              unoptimized
+              className="absolute inset-0 w-full h-full object-cover"
+              loading="lazy"
               onError={() => setImageError(true)}
             />
           </div>

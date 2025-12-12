@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import Image from 'next/image';
 import type { AppImage } from '@/types';
 
 interface ImageGalleryProps {
@@ -61,13 +60,11 @@ export function ImageGallery({ images, appName }: ImageGalleryProps) {
             boxShadow: 'inset 1px 1px 0 #888888, inset -1px -1px 0 #FFFFFF',
           }}
         >
-          <Image
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
             src={getImageSrc(selectedImage, selectedIndex)}
             alt={selectedImage.alt_text || `${appName} screenshot`}
-            fill
-            className="object-contain"
-            priority
-            unoptimized
+            className="absolute inset-0 w-full h-full object-contain"
             onError={() => handleImageError(selectedImage.id)}
           />
         </div>
@@ -92,12 +89,11 @@ export function ImageGallery({ images, appName }: ImageGalleryProps) {
                     : 'inset 1px 1px 0 #888888, inset -1px -1px 0 #FFFFFF',
               }}
             >
-              <Image
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
                 src={getImageSrc(image, index)}
                 alt={image.alt_text || `${appName} thumbnail ${index + 1}`}
-                fill
-                className="object-cover"
-                unoptimized
+                className="absolute inset-0 w-full h-full object-cover"
                 onError={() => handleImageError(image.id)}
               />
             </button>
@@ -125,12 +121,11 @@ export function ImageGallery({ images, appName }: ImageGalleryProps) {
             </button>
 
             <div className="relative aspect-video bg-black">
-              <Image
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
                 src={getImageSrc(selectedImage, selectedIndex)}
                 alt={selectedImage.alt_text || `${appName} screenshot`}
-                fill
-                className="object-contain"
-                unoptimized
+                className="absolute inset-0 w-full h-full object-contain"
                 onError={() => handleImageError(selectedImage.id)}
               />
             </div>

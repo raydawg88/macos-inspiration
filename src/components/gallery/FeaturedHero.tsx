@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 import { ClassicWindow, ClassicButton } from '@/components/ui';
 import type { AppWithImages } from '@/types';
@@ -21,26 +20,13 @@ export function FeaturedHero({ app }: FeaturedHeroProps) {
         {/* Image */}
         <div className="flex-shrink-0 w-full md:w-1/2">
           <div className="relative aspect-video bg-[#EEEEEE] border border-[#AAAAAA] overflow-hidden">
-            {primaryImage || imageError ? (
-              <Image
-                src={imageError ? placeholderUrl : (primaryImage?.storage_path || placeholderUrl)}
-                alt={primaryImage?.alt_text || app.name}
-                fill
-                className="object-cover"
-                sizes="(max-width: 768px) 100vw, 50vw"
-                unoptimized
-                onError={() => setImageError(true)}
-              />
-            ) : (
-              <div className="absolute inset-0 flex items-center justify-center">
-                <span
-                  className="text-[#888888] text-sm"
-                  style={{ fontFamily: "'Geneva', 'Verdana', sans-serif" }}
-                >
-                  No Preview
-                </span>
-              </div>
-            )}
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={imageError ? placeholderUrl : (primaryImage?.storage_path || placeholderUrl)}
+              alt={primaryImage?.alt_text || app.name}
+              className="absolute inset-0 w-full h-full object-cover"
+              onError={() => setImageError(true)}
+            />
           </div>
         </div>
 
