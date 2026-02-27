@@ -34,11 +34,12 @@ export function CategoryFilter({ activeCategory }: CategoryFilterProps) {
         `,
       }}
     >
-      <div className="flex flex-wrap gap-1">
+      <div className="flex gap-1 overflow-x-auto pb-1 scrollbar-none" style={{ scrollbarWidth: 'none' }}>
         <ClassicButton
           size="sm"
           variant={!activeCategory ? 'primary' : 'default'}
           onClick={() => handleCategoryClick(null)}
+          className="flex-shrink-0"
         >
           All
         </ClassicButton>
@@ -49,6 +50,7 @@ export function CategoryFilter({ activeCategory }: CategoryFilterProps) {
             size="sm"
             variant={activeCategory === key ? 'primary' : 'default'}
             onClick={() => handleCategoryClick(key as AppCategory)}
+            className="flex-shrink-0"
           >
             {label}
           </ClassicButton>
